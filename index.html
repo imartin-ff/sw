@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- meta -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- title -->
+    <title>SW</title>
+
+
+    <!-- fonts -->
+
+    
+    <!-- styles -->
+    <link rel="stylesheet" href="css/main.min.css">
+
+</head>
+<body>
+
+
+<div class="site-container">  <!-- site-container -->
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__line">
+                    <button class="burger">
+                        <svg width="20" height="15" viewBox="0 0 20 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0 1C0 0.447715 0.447715 0 1 0H19C19.5523 0 20 0.447715 20 1C20 1.55228 19.5523 2 19 2H1C0.447716 2 0 1.55228 0 1Z" fill="#F30000"/>
+                            <path d="M0 7.03223C0 6.47994 0.447715 6.03223 1 6.03223H19C19.5523 6.03223 20 6.47994 20 7.03223C20 7.58451 19.5523 8.03223 19 8.03223H1C0.447716 8.03223 0 7.58451 0 7.03223Z" fill="#F30000"/>
+                            <path d="M1 12.0645C0.447715 12.0645 0 12.5122 0 13.0645C0 13.6167 0.447716 14.0645 1 14.0645H19C19.5523 14.0645 20 13.6167 20 13.0645C20 12.5122 19.5523 12.0645 19 12.0645H1Z" fill="#F30000"/>
+                        </svg>
+                    </button>
+                    <a href="index.html" class="header__logo-link">
+                        <img src="img/logo.png" alt="SW" class="header__logo-img"> 
+                    </a>
+                    <a href="" class="profile-link--mobile">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="24" height="24" rx="4" fill="#0061A3"/>
+                            <path d="M12.0004 11.1864C14.0033 11.1864 15.627 9.63744 15.627 7.72673C15.627 5.81602 14.0033 4.26709 12.0004 4.26709C9.99744 4.26709 8.37373 5.81602 8.37373 7.72673C8.37373 9.63744 9.99744 11.1864 12.0004 11.1864Z" fill="white"/>
+                            <path d="M12.0003 12.0004C8.46573 12.0004 5.60034 14.7339 5.60034 18.1057C5.60034 19.0048 6.36446 19.7338 7.30701 19.7338H16.6937C17.6362 19.7338 18.4003 19.0048 18.4003 18.1057C18.4003 14.7339 15.5349 12.0004 12.0003 12.0004Z" fill="white"/>
+                        </svg>
+                    </a>
+                   
+                        
+
+                    <div class="header__box user-info mobile-hidden">
+                        <span>Welcome <b>Roma</b> — <a href="">Logout</a></span>
+                        <span>Your balance: <b>Р 0,00</b> </span>
+                    </div>
+
+                    <div class="header__box header__box--right">
+                        <div class="header__social-links">
+                            <a href="" class="header__social-link">
+                                <img src="img/socials/icon/facebook.png" alt="">
+                            </a>
+
+                            <a href="" class="header__social-link">
+                                <img src="img/socials/icon/twitter.png" alt="">
+                            </a>
+
+                            <a href="" class="header__social-link">
+                                <img src="img/socials/icon/facebook-messenger.png" alt="">
+                            </a>
+
+                            <a href="" class="header__social-link">
+                                <img src="img/socials/icon/whatsapp.png" alt="">
+                            </a>
+                        </div>
+
+                        <label for="language-select" class="language-select">
+                            <img src="img/en.png" alt="english">
+                            <select name="language-select" id="language-select">
+                                <option value="English">English</option>
+                            </select>
+                        </label>
+                    </div>
+                </div>
+
+
+                <div class="header__box user-info desktop-hidden">
+                    <span>Welcome <b>Roma</b> — <a href="">Logout</a></span>
+                    <span>Your balance: <b>Р 0,00</b> </span>
+                </div>
+
+                <div class="header__menu">
+                    <button class="close desktop-hidden">
+                        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M26.0001 2.35254L14.1766 14.1761L2.35303 25.9996" stroke="black" stroke-width="3"/>
+                            <path d="M2 2.0004L13.8235 13.8239L25.6471 25.6475" stroke="black" stroke-width="3"/>
+                        </svg>
+                    </button>
+                    <ul>
+                        <li>
+                            <a href="" class="active">Home</a>
+                        </li>
+                        <li>
+                            <a href="">PLAY ALL lottery</a>
+                        </li>
+                        <li>
+                            <a href="">LOTTERY GROUPS</a>
+                        </li>
+                        <li>
+                            <a href="">Promotions</a>
+                        </li>
+                    </ul>
+                    <a href="" class="profile-link mobile-hidden">My Account</a>
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="page-container">
+
+
+       <div class="banner">
+        <div class="container">
+            <img src="img/banner.png" alt="">
+        </div>
+       </div>
+
+
+       <div class="cards">
+            <div class="container">
+                <div class="cards__grid col-3">
+                    <div class="cards__item bordered">
+                        <img src="img/card-img.png" alt="">
+                        <div class="cards__item-content">
+                            <div class="cards__item-title">
+                                <span>you pick</span>
+                                <div class="cards__item-link">Play Now » </div>
+                            </div>
+                            <p class="cards__item-text">
+                                It’s easy! Pick from over 40 official lottery games you wish to play. Then select your winning numbers.
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="cards__item bordered">
+                        <img src="img/card-img-2.png" alt="">
+                        <div class="cards__item-content">
+                            <div class="cards__item-title">
+                                <span>we buy</span> 
+                                <div class="cards__item-link">More Details »</div>
+                            </div>
+                            <p class="cards__item-text">
+                                Once you’ve picked your winning numbers we’ll purchase your ticket on your behalf.
+                            </p>
+                        </div>
+                    </div>
+
+
+
+                    <div class="cards__item bordered">
+                        <img src="img/cards-img-3.png" alt="">
+                        <div class="cards__item-content">
+                            <div class="cards__item-title">
+                                <span>you win!!!</span> 
+                                <div class="cards__item-link">Withdraw My Winnings »</div>
+                            </div>
+                            <p class="cards__item-text">
+                                When you win, we’ll automatically credit your account the full value of your winnings.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </div>
+
+
+       <div class="lotteries">
+        <div class="container">
+            <h2 class="lotteries__title">
+                BIGGEST UPCOMING LOTTERY DRAWS
+            </h2>
+            <div class="lotteries__grid col-3">
+
+                <div class="lotteries__item bordered">
+                    <div class="lotteries__body">
+                        <img src="img/lotteries.png" alt="">
+                        <div class="lotteries-content">
+                            <div class="lotteries-type">
+                                <img src="img/en.png" alt="">
+                                Mega Millions
+                            </div>
+                            <div class="lotteries-price">
+                                $94 000 000
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="lotteries__footer">
+                        <a href="" class="lotteries-link">Play Now</a>
+                        <div class="lotteries__timer timer-wrap">
+                            <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8.16577 5H10.1658V9H13.1658V11H8.16577V5Z" fill="white"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.165771 9C0.165771 4.02944 4.19521 0 9.16577 0C14.1363 0 18.1658 4.02944 18.1658 9C18.1658 13.9706 14.1363 18 9.16577 18C4.19521 18 0.165771 13.9706 0.165771 9ZM2.16577 9C2.16577 5.13401 5.29978 2 9.16577 2C13.0318 2 16.1658 5.13401 16.1658 9C16.1658 12.866 13.0318 16 9.16577 16C5.29978 16 2.16577 12.866 2.16577 9Z" fill="white"/>
+                            </svg>
+                           <span class="timer">1:22:01</span>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="lotteries__item bordered">
+                    <div class="lotteries__body">
+                        <img src="img/lotteries.png" alt="">
+                        <div class="lotteries-content">
+                            <div class="lotteries-type">
+                                <img src="img/en.png" alt="">
+                                Mega Millions
+                            </div>
+                            <div class="lotteries-price">
+                                $94 000 000
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="lotteries__footer">
+                        <a href="" class="lotteries-link">Play Now</a>
+                        <div class="lotteries__timer timer-wrap">
+                            <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8.16577 5H10.1658V9H13.1658V11H8.16577V5Z" fill="white"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.165771 9C0.165771 4.02944 4.19521 0 9.16577 0C14.1363 0 18.1658 4.02944 18.1658 9C18.1658 13.9706 14.1363 18 9.16577 18C4.19521 18 0.165771 13.9706 0.165771 9ZM2.16577 9C2.16577 5.13401 5.29978 2 9.16577 2C13.0318 2 16.1658 5.13401 16.1658 9C16.1658 12.866 13.0318 16 9.16577 16C5.29978 16 2.16577 12.866 2.16577 9Z" fill="white"/>
+                            </svg>
+                           <span class="timer">1:22:01</span>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="lotteries__item bordered">
+                    <div class="lotteries__body">
+                        <img src="img/lotteries.png" alt="">
+                        <div class="lotteries-content">
+                            <div class="lotteries-type">
+                                <img src="img/en.png" alt="">
+                                Mega Millions
+                            </div>
+                            <div class="lotteries-price">
+                                $94 000 000
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="lotteries__footer">
+                        <a href="" class="lotteries-link">Play Now</a>
+                        <div class="lotteries__timer timer-wrap">
+                            <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8.16577 5H10.1658V9H13.1658V11H8.16577V5Z" fill="white"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.165771 9C0.165771 4.02944 4.19521 0 9.16577 0C14.1363 0 18.1658 4.02944 18.1658 9C18.1658 13.9706 14.1363 18 9.16577 18C4.19521 18 0.165771 13.9706 0.165771 9ZM2.16577 9C2.16577 5.13401 5.29978 2 9.16577 2C13.0318 2 16.1658 5.13401 16.1658 9C16.1658 12.866 13.0318 16 9.16577 16C5.29978 16 2.16577 12.866 2.16577 9Z" fill="white"/>
+                            </svg>
+                           <span class="timer">1:22:01</span>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+            </div>
+        </div>
+       </div>
+
+
+       <div class="online-lotteries">
+        <div class="container">
+            <div class="online-lotteries__inner">
+                <h2 class="red-title">
+                    PLAY UPCOMING LOTTERIES ONLINE
+                </h2>
+
+                <div class="online-lotteries__grid">
+                    <div class="online-lotteries__item bordered">
+                        <button class="favorite-btn">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M15.5335 6.73837L11.3591 9.92349L12.8686 14.8136C12.8686 14.8136 13.741 16.8684 11.9642 15.5411C10.3364 14.3248 8.01007 12.4882 8.01007 12.4882C8.01007 12.4882 5.57067 14.3651 3.95791 15.6045C2.33535 16.8521 3.1646 14.7496 3.1646 14.7496L4.66627 9.91735L0.587977 6.80723C0.587977 6.80723 -0.890168 5.75802 0.84087 5.75802C2.83329 5.75802 5.94773 5.75939 5.94773 5.75939L7.57486 0.454724C7.57486 0.454724 7.70163 0 8.02183 0C8.36229 0 8.47599 0.48813 8.47599 0.48813L10.0842 5.76348C10.0842 5.76348 13.1672 5.75802 15.161 5.75802C16.7992 5.75802 15.5335 6.73837 15.5335 6.73837Z" fill="#F7D300"/>
+                            </svg>
+                        </button>
+                        <div class="online-lotteries__item-img">
+                            <img src="img/letteries-logo4.png" alt="">
+                        </div>
+                        <div class="online-lotteries__item-type lotteries-type">
+                            <img src="img/en.png" alt="">
+                            Mega Millions
+                        </div>
+                        <div class="online-lotteries__item-price">
+                            $122 000 000
+                        </div>
+                        <div class="timer-wrap">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7.11111 4.44444H8.88889V8H11.5556V9.77778H7.11111V4.44444Z" fill="#0061A3"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0 8C0 3.58172 3.58172 0 8 0C12.4183 0 16 3.58172 16 8C16 12.4183 12.4183 16 8 16C3.58172 16 0 12.4183 0 8ZM1.77778 8C1.77778 4.56356 4.56356 1.77778 8 1.77778C11.4364 1.77778 14.2222 4.56356 14.2222 8C14.2222 11.4364 11.4364 14.2222 8 14.2222C4.56356 14.2222 1.77778 11.4364 1.77778 8Z" fill="#0061A3"/>
+                            </svg>
+                            <span class="timer">
+                                1:22:01
+                            </span>
+                        </div>
+
+                        <a href="#" class="lotteries-link">Play Now</a>
+                    </div>
+
+
+                    <div class="online-lotteries__item bordered">
+                        <button class="favorite-btn">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M15.5335 6.73837L11.3591 9.92349L12.8686 14.8136C12.8686 14.8136 13.741 16.8684 11.9642 15.5411C10.3364 14.3248 8.01007 12.4882 8.01007 12.4882C8.01007 12.4882 5.57067 14.3651 3.95791 15.6045C2.33535 16.8521 3.1646 14.7496 3.1646 14.7496L4.66627 9.91735L0.587977 6.80723C0.587977 6.80723 -0.890168 5.75802 0.84087 5.75802C2.83329 5.75802 5.94773 5.75939 5.94773 5.75939L7.57486 0.454724C7.57486 0.454724 7.70163 0 8.02183 0C8.36229 0 8.47599 0.48813 8.47599 0.48813L10.0842 5.76348C10.0842 5.76348 13.1672 5.75802 15.161 5.75802C16.7992 5.75802 15.5335 6.73837 15.5335 6.73837Z" fill="#F7D300"/>
+                            </svg>
+                        </button>
+                        <div class="online-lotteries__item-img">
+                            <img src="img/letteries-logo4.png" alt="">
+                        </div>
+                        <div class="online-lotteries__item-type lotteries-type">
+                            <img src="img/en.png" alt="">
+                            Mega Millions
+                        </div>
+                        <div class="online-lotteries__item-price">
+                            $122 000 000
+                        </div>
+                        <div class="timer-wrap">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7.11111 4.44444H8.88889V8H11.5556V9.77778H7.11111V4.44444Z" fill="#0061A3"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0 8C0 3.58172 3.58172 0 8 0C12.4183 0 16 3.58172 16 8C16 12.4183 12.4183 16 8 16C3.58172 16 0 12.4183 0 8ZM1.77778 8C1.77778 4.56356 4.56356 1.77778 8 1.77778C11.4364 1.77778 14.2222 4.56356 14.2222 8C14.2222 11.4364 11.4364 14.2222 8 14.2222C4.56356 14.2222 1.77778 11.4364 1.77778 8Z" fill="#0061A3"/>
+                            </svg>
+                            <span class="timer">
+                                1:22:01
+                            </span>
+                        </div>
+
+                        <a href="#" class="lotteries-link">Play Now</a>
+                    </div>
+
+
+
+                    <div class="online-lotteries__item bordered">
+                        <button class="favorite-btn">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M15.5335 6.73837L11.3591 9.92349L12.8686 14.8136C12.8686 14.8136 13.741 16.8684 11.9642 15.5411C10.3364 14.3248 8.01007 12.4882 8.01007 12.4882C8.01007 12.4882 5.57067 14.3651 3.95791 15.6045C2.33535 16.8521 3.1646 14.7496 3.1646 14.7496L4.66627 9.91735L0.587977 6.80723C0.587977 6.80723 -0.890168 5.75802 0.84087 5.75802C2.83329 5.75802 5.94773 5.75939 5.94773 5.75939L7.57486 0.454724C7.57486 0.454724 7.70163 0 8.02183 0C8.36229 0 8.47599 0.48813 8.47599 0.48813L10.0842 5.76348C10.0842 5.76348 13.1672 5.75802 15.161 5.75802C16.7992 5.75802 15.5335 6.73837 15.5335 6.73837Z" fill="#F7D300"/>
+                            </svg>
+                        </button>
+                        <div class="online-lotteries__item-img">
+                            <img src="img/letteries-logo4.png" alt="">
+                        </div>
+                        <div class="online-lotteries__item-type lotteries-type">
+                            <img src="img/en.png" alt="">
+                            Mega Millions
+                        </div>
+                        <div class="online-lotteries__item-price">
+                            $122 000 000
+                        </div>
+                        <div class="timer-wrap">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7.11111 4.44444H8.88889V8H11.5556V9.77778H7.11111V4.44444Z" fill="#0061A3"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0 8C0 3.58172 3.58172 0 8 0C12.4183 0 16 3.58172 16 8C16 12.4183 12.4183 16 8 16C3.58172 16 0 12.4183 0 8ZM1.77778 8C1.77778 4.56356 4.56356 1.77778 8 1.77778C11.4364 1.77778 14.2222 4.56356 14.2222 8C14.2222 11.4364 11.4364 14.2222 8 14.2222C4.56356 14.2222 1.77778 11.4364 1.77778 8Z" fill="#0061A3"/>
+                            </svg>
+                            <span class="timer">
+                                1:22:01
+                            </span>
+                        </div>
+
+                        <a href="#" class="lotteries-link">Play Now</a>
+                    </div>
+
+
+
+                    <div class="online-lotteries__item bordered">
+                        <button class="favorite-btn">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M15.5335 6.73837L11.3591 9.92349L12.8686 14.8136C12.8686 14.8136 13.741 16.8684 11.9642 15.5411C10.3364 14.3248 8.01007 12.4882 8.01007 12.4882C8.01007 12.4882 5.57067 14.3651 3.95791 15.6045C2.33535 16.8521 3.1646 14.7496 3.1646 14.7496L4.66627 9.91735L0.587977 6.80723C0.587977 6.80723 -0.890168 5.75802 0.84087 5.75802C2.83329 5.75802 5.94773 5.75939 5.94773 5.75939L7.57486 0.454724C7.57486 0.454724 7.70163 0 8.02183 0C8.36229 0 8.47599 0.48813 8.47599 0.48813L10.0842 5.76348C10.0842 5.76348 13.1672 5.75802 15.161 5.75802C16.7992 5.75802 15.5335 6.73837 15.5335 6.73837Z" fill="#F7D300"/>
+                            </svg>
+                        </button>
+                        <div class="online-lotteries__item-img">
+                            <img src="img/letteries-logo4.png" alt="">
+                        </div>
+                        <div class="online-lotteries__item-type lotteries-type">
+                            <img src="img/en.png" alt="">
+                            Mega Millions
+                        </div>
+                        <div class="online-lotteries__item-price">
+                            $122 000 000
+                        </div>
+                        <div class="timer-wrap">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7.11111 4.44444H8.88889V8H11.5556V9.77778H7.11111V4.44444Z" fill="#0061A3"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0 8C0 3.58172 3.58172 0 8 0C12.4183 0 16 3.58172 16 8C16 12.4183 12.4183 16 8 16C3.58172 16 0 12.4183 0 8ZM1.77778 8C1.77778 4.56356 4.56356 1.77778 8 1.77778C11.4364 1.77778 14.2222 4.56356 14.2222 8C14.2222 11.4364 11.4364 14.2222 8 14.2222C4.56356 14.2222 1.77778 11.4364 1.77778 8Z" fill="#0061A3"/>
+                            </svg>
+                            <span class="timer">
+                                1:22:01
+                            </span>
+                        </div>
+
+                        <a href="#" class="lotteries-link">Play Now</a>
+                    </div>
+
+
+
+                    <div class="online-lotteries__item bordered">
+                        <button class="favorite-btn">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M15.5335 6.73837L11.3591 9.92349L12.8686 14.8136C12.8686 14.8136 13.741 16.8684 11.9642 15.5411C10.3364 14.3248 8.01007 12.4882 8.01007 12.4882C8.01007 12.4882 5.57067 14.3651 3.95791 15.6045C2.33535 16.8521 3.1646 14.7496 3.1646 14.7496L4.66627 9.91735L0.587977 6.80723C0.587977 6.80723 -0.890168 5.75802 0.84087 5.75802C2.83329 5.75802 5.94773 5.75939 5.94773 5.75939L7.57486 0.454724C7.57486 0.454724 7.70163 0 8.02183 0C8.36229 0 8.47599 0.48813 8.47599 0.48813L10.0842 5.76348C10.0842 5.76348 13.1672 5.75802 15.161 5.75802C16.7992 5.75802 15.5335 6.73837 15.5335 6.73837Z" fill="#F7D300"/>
+                            </svg>
+                        </button>
+                        <div class="online-lotteries__item-img">
+                            <img src="img/letteries-logo4.png" alt="">
+                        </div>
+                        <div class="online-lotteries__item-type lotteries-type">
+                            <img src="img/en.png" alt="">
+                            Mega Millions
+                        </div>
+                        <div class="online-lotteries__item-price">
+                            $122 000 000
+                        </div>
+                        <div class="timer-wrap">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7.11111 4.44444H8.88889V8H11.5556V9.77778H7.11111V4.44444Z" fill="#0061A3"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0 8C0 3.58172 3.58172 0 8 0C12.4183 0 16 3.58172 16 8C16 12.4183 12.4183 16 8 16C3.58172 16 0 12.4183 0 8ZM1.77778 8C1.77778 4.56356 4.56356 1.77778 8 1.77778C11.4364 1.77778 14.2222 4.56356 14.2222 8C14.2222 11.4364 11.4364 14.2222 8 14.2222C4.56356 14.2222 1.77778 11.4364 1.77778 8Z" fill="#0061A3"/>
+                            </svg>
+                            <span class="timer">
+                                1:22:01
+                            </span>
+                        </div>
+
+                        <a href="#" class="lotteries-link">Play Now</a>
+                    </div>
+
+
+
+                    <div class="online-lotteries__item bordered">
+                        <button class="favorite-btn">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M15.5335 6.73837L11.3591 9.92349L12.8686 14.8136C12.8686 14.8136 13.741 16.8684 11.9642 15.5411C10.3364 14.3248 8.01007 12.4882 8.01007 12.4882C8.01007 12.4882 5.57067 14.3651 3.95791 15.6045C2.33535 16.8521 3.1646 14.7496 3.1646 14.7496L4.66627 9.91735L0.587977 6.80723C0.587977 6.80723 -0.890168 5.75802 0.84087 5.75802C2.83329 5.75802 5.94773 5.75939 5.94773 5.75939L7.57486 0.454724C7.57486 0.454724 7.70163 0 8.02183 0C8.36229 0 8.47599 0.48813 8.47599 0.48813L10.0842 5.76348C10.0842 5.76348 13.1672 5.75802 15.161 5.75802C16.7992 5.75802 15.5335 6.73837 15.5335 6.73837Z" fill="#F7D300"/>
+                            </svg>
+                        </button>
+                        <div class="online-lotteries__item-img">
+                            <img src="img/letteries-logo4.png" alt="">
+                        </div>
+                        <div class="online-lotteries__item-type lotteries-type">
+                            <img src="img/en.png" alt="">
+                            Mega Millions
+                        </div>
+                        <div class="online-lotteries__item-price">
+                            $122 000 000
+                        </div>
+                        <div class="timer-wrap">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7.11111 4.44444H8.88889V8H11.5556V9.77778H7.11111V4.44444Z" fill="#0061A3"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0 8C0 3.58172 3.58172 0 8 0C12.4183 0 16 3.58172 16 8C16 12.4183 12.4183 16 8 16C3.58172 16 0 12.4183 0 8ZM1.77778 8C1.77778 4.56356 4.56356 1.77778 8 1.77778C11.4364 1.77778 14.2222 4.56356 14.2222 8C14.2222 11.4364 11.4364 14.2222 8 14.2222C4.56356 14.2222 1.77778 11.4364 1.77778 8Z" fill="#0061A3"/>
+                            </svg>
+                            <span class="timer">
+                                1:22:01
+                            </span>
+                        </div>
+
+                        <a href="#" class="lotteries-link">Play Now</a>
+                    </div>
+
+
+
+                    <div class="online-lotteries__item bordered">
+                        <button class="favorite-btn">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M15.5335 6.73837L11.3591 9.92349L12.8686 14.8136C12.8686 14.8136 13.741 16.8684 11.9642 15.5411C10.3364 14.3248 8.01007 12.4882 8.01007 12.4882C8.01007 12.4882 5.57067 14.3651 3.95791 15.6045C2.33535 16.8521 3.1646 14.7496 3.1646 14.7496L4.66627 9.91735L0.587977 6.80723C0.587977 6.80723 -0.890168 5.75802 0.84087 5.75802C2.83329 5.75802 5.94773 5.75939 5.94773 5.75939L7.57486 0.454724C7.57486 0.454724 7.70163 0 8.02183 0C8.36229 0 8.47599 0.48813 8.47599 0.48813L10.0842 5.76348C10.0842 5.76348 13.1672 5.75802 15.161 5.75802C16.7992 5.75802 15.5335 6.73837 15.5335 6.73837Z" fill="#F7D300"/>
+                            </svg>
+                        </button>
+                        <div class="online-lotteries__item-img">
+                            <img src="img/letteries-logo4.png" alt="">
+                        </div>
+                        <div class="online-lotteries__item-type lotteries-type">
+                            <img src="img/en.png" alt="">
+                            Mega Millions
+                        </div>
+                        <div class="online-lotteries__item-price">
+                            $122 000 000
+                        </div>
+                        <div class="timer-wrap">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7.11111 4.44444H8.88889V8H11.5556V9.77778H7.11111V4.44444Z" fill="#0061A3"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0 8C0 3.58172 3.58172 0 8 0C12.4183 0 16 3.58172 16 8C16 12.4183 12.4183 16 8 16C3.58172 16 0 12.4183 0 8ZM1.77778 8C1.77778 4.56356 4.56356 1.77778 8 1.77778C11.4364 1.77778 14.2222 4.56356 14.2222 8C14.2222 11.4364 11.4364 14.2222 8 14.2222C4.56356 14.2222 1.77778 11.4364 1.77778 8Z" fill="#0061A3"/>
+                            </svg>
+                            <span class="timer">
+                                1:22:01
+                            </span>
+                        </div>
+
+                        <a href="#" class="lotteries-link">Play Now</a>
+                    </div>
+
+
+
+                    <div class="online-lotteries__item bordered">
+                        <button class="favorite-btn">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M15.5335 6.73837L11.3591 9.92349L12.8686 14.8136C12.8686 14.8136 13.741 16.8684 11.9642 15.5411C10.3364 14.3248 8.01007 12.4882 8.01007 12.4882C8.01007 12.4882 5.57067 14.3651 3.95791 15.6045C2.33535 16.8521 3.1646 14.7496 3.1646 14.7496L4.66627 9.91735L0.587977 6.80723C0.587977 6.80723 -0.890168 5.75802 0.84087 5.75802C2.83329 5.75802 5.94773 5.75939 5.94773 5.75939L7.57486 0.454724C7.57486 0.454724 7.70163 0 8.02183 0C8.36229 0 8.47599 0.48813 8.47599 0.48813L10.0842 5.76348C10.0842 5.76348 13.1672 5.75802 15.161 5.75802C16.7992 5.75802 15.5335 6.73837 15.5335 6.73837Z" fill="#F7D300"/>
+                            </svg>
+                        </button>
+                        <div class="online-lotteries__item-img">
+                            <img src="img/letteries-logo4.png" alt="">
+                        </div>
+                        <div class="online-lotteries__item-type lotteries-type">
+                            <img src="img/en.png" alt="">
+                            Mega Millions
+                        </div>
+                        <div class="online-lotteries__item-price">
+                            $122 000 000
+                        </div>
+                        <div class="timer-wrap">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7.11111 4.44444H8.88889V8H11.5556V9.77778H7.11111V4.44444Z" fill="#0061A3"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0 8C0 3.58172 3.58172 0 8 0C12.4183 0 16 3.58172 16 8C16 12.4183 12.4183 16 8 16C3.58172 16 0 12.4183 0 8ZM1.77778 8C1.77778 4.56356 4.56356 1.77778 8 1.77778C11.4364 1.77778 14.2222 4.56356 14.2222 8C14.2222 11.4364 11.4364 14.2222 8 14.2222C4.56356 14.2222 1.77778 11.4364 1.77778 8Z" fill="#0061A3"/>
+                            </svg>
+                            <span class="timer">
+                                1:22:01
+                            </span>
+                        </div>
+
+                        <a href="#" class="lotteries-link">Play Now</a>
+                    </div>
+
+
+
+                    <div class="online-lotteries__item bordered">
+                        <button class="favorite-btn">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M15.5335 6.73837L11.3591 9.92349L12.8686 14.8136C12.8686 14.8136 13.741 16.8684 11.9642 15.5411C10.3364 14.3248 8.01007 12.4882 8.01007 12.4882C8.01007 12.4882 5.57067 14.3651 3.95791 15.6045C2.33535 16.8521 3.1646 14.7496 3.1646 14.7496L4.66627 9.91735L0.587977 6.80723C0.587977 6.80723 -0.890168 5.75802 0.84087 5.75802C2.83329 5.75802 5.94773 5.75939 5.94773 5.75939L7.57486 0.454724C7.57486 0.454724 7.70163 0 8.02183 0C8.36229 0 8.47599 0.48813 8.47599 0.48813L10.0842 5.76348C10.0842 5.76348 13.1672 5.75802 15.161 5.75802C16.7992 5.75802 15.5335 6.73837 15.5335 6.73837Z" fill="#F7D300"/>
+                            </svg>
+                        </button>
+                        <div class="online-lotteries__item-img">
+                            <img src="img/letteries-logo4.png" alt="">
+                        </div>
+                        <div class="online-lotteries__item-type lotteries-type">
+                            <img src="img/en.png" alt="">
+                            Mega Millions
+                        </div>
+                        <div class="online-lotteries__item-price">
+                            $122 000 000
+                        </div>
+                        <div class="timer-wrap">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7.11111 4.44444H8.88889V8H11.5556V9.77778H7.11111V4.44444Z" fill="#0061A3"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0 8C0 3.58172 3.58172 0 8 0C12.4183 0 16 3.58172 16 8C16 12.4183 12.4183 16 8 16C3.58172 16 0 12.4183 0 8ZM1.77778 8C1.77778 4.56356 4.56356 1.77778 8 1.77778C11.4364 1.77778 14.2222 4.56356 14.2222 8C14.2222 11.4364 11.4364 14.2222 8 14.2222C4.56356 14.2222 1.77778 11.4364 1.77778 8Z" fill="#0061A3"/>
+                            </svg>
+                            <span class="timer">
+                                1:22:01
+                            </span>
+                        </div>
+
+                        <a href="#" class="lotteries-link">Play Now</a>
+                    </div>
+
+
+                    <div class="online-lotteries__item bordered">
+                        <button class="favorite-btn">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M15.5335 6.73837L11.3591 9.92349L12.8686 14.8136C12.8686 14.8136 13.741 16.8684 11.9642 15.5411C10.3364 14.3248 8.01007 12.4882 8.01007 12.4882C8.01007 12.4882 5.57067 14.3651 3.95791 15.6045C2.33535 16.8521 3.1646 14.7496 3.1646 14.7496L4.66627 9.91735L0.587977 6.80723C0.587977 6.80723 -0.890168 5.75802 0.84087 5.75802C2.83329 5.75802 5.94773 5.75939 5.94773 5.75939L7.57486 0.454724C7.57486 0.454724 7.70163 0 8.02183 0C8.36229 0 8.47599 0.48813 8.47599 0.48813L10.0842 5.76348C10.0842 5.76348 13.1672 5.75802 15.161 5.75802C16.7992 5.75802 15.5335 6.73837 15.5335 6.73837Z" fill="#F7D300"/>
+                            </svg>
+                        </button>
+                        <div class="online-lotteries__item-img">
+                            <img src="img/letteries-logo4.png" alt="">
+                        </div>
+                        <div class="online-lotteries__item-type lotteries-type">
+                            <img src="img/en.png" alt="">
+                            Mega Millions
+                        </div>
+                        <div class="online-lotteries__item-price">
+                            $122 000 000
+                        </div>
+                        <div class="timer-wrap">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7.11111 4.44444H8.88889V8H11.5556V9.77778H7.11111V4.44444Z" fill="#0061A3"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0 8C0 3.58172 3.58172 0 8 0C12.4183 0 16 3.58172 16 8C16 12.4183 12.4183 16 8 16C3.58172 16 0 12.4183 0 8ZM1.77778 8C1.77778 4.56356 4.56356 1.77778 8 1.77778C11.4364 1.77778 14.2222 4.56356 14.2222 8C14.2222 11.4364 11.4364 14.2222 8 14.2222C4.56356 14.2222 1.77778 11.4364 1.77778 8Z" fill="#0061A3"/>
+                            </svg>
+                            <span class="timer">
+                                1:22:01
+                            </span>
+                        </div>
+
+                        <a href="#" class="lotteries-link">Play Now</a>
+                    </div>
+                </div>
+
+                <a href="" class="more-link">More Details »</a>
+            </div>
+        </div>
+       </div>
+
+
+       <div class="winners">
+        <div class="container">
+            <div class="winners__inner">
+                <div class="winners__col">
+                    <h2 class="red-title">
+                        BIGGEST LOTTERY WINNER
+                    </h2>
+
+                    <div class="winners__box bordered">
+                        <div class="number-wrapper">
+                            <img src="img/loto.png" alt="">
+                            won <span class="number">€100 000 000</span>
+                        </div>
+
+                        <div class="winners__box-inner">
+                            <div class="winner-img">
+                                <img src="img/winners.png">
+                                <div class="loto-result__wrapper">
+                                    UK Lotto results:
+                                    <div class="result">
+                                        <div class="numbers">
+                                            <div class="number">
+                                                07
+                                            </div>
+
+                                            <div class="number">
+                                                07
+                                            </div>
+
+                                            <div class="number">
+                                                07
+                                            </div>
+
+                                            <div class="number">
+                                                07
+                                            </div>
+
+                                            <div class="number">
+                                                07
+                                            </div>
+                                        </div>
+
+                                        <div class="date">
+                                            Date: 20.11.2021
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="winners__info">
+                                <span class="winners__info-title">
+                                    Shaun Vincent a Lottery Winner
+                                </span>
+                                <p class="winners__info-text">
+                                    Shaun Vincent, from Barnsley, celebrates his £1,158,038 National Lottery win after his cheque presentation at the Cedar Court Hotel, Wakefield.
+                                </p>
+
+                                <a href="">Read the full story</a>
+
+                                <a href="" class="play-link">Play Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="winners__col">
+                    <h2 class="red-title">
+                        OUR LATEST WINNERS
+                    </h2>
+
+                    <div class="total-numbers bordered">
+                        Total prizes paid out
+                        <div class="green-number">
+                            US$ 107 233 768
+                        </div>
+                        <div class="black-number">
+                           <b>6 975 146</b> 
+winning tickets
+                        </div>
+                    </div>
+
+                    <div class="winner-list">
+                        <div class="winner bordered ">
+                            <img src="img/winner.png" alt="">
+                            <div class="winner-content">
+                                <div class="date">20.11.2021</div>
+                                <div class="name">
+                                    <img src="img/germany.png" alt="">
+                                    J.J won  Р175
+                                </div>
+                                <div class="text">in   7 ИЗ 49   draw  #13476</div>
+                            </div>
+                        </div>
+
+                       
+
+                        <div class="winner bordered">
+                            <img src="img/winner.png" alt="">
+                            <div class="winner-content">
+                                <div class="date">20.11.2021</div>
+                                <div class="name">
+                                    <img src="img/germany.png" alt="">
+                                    J.J won  Р175
+                                </div>
+                                <div class="text">in   7 ИЗ 49   draw  #13476</div>
+                            </div>
+                        </div>
+
+                        <div class="winner bordered">
+                            <img src="img/winner.png" alt="">
+                            <div class="winner-content">
+                                <div class="date">20.11.2021</div>
+                                <div class="name">
+                                    <img src="img/germany.png" alt="">
+                                    J.J won  Р175
+                                </div>
+                                <div class="text">in   7 ИЗ 49   draw  #13476</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </div>
+
+
+       <div class="questions">
+        <div class="container">
+            <div class="questions__inner">
+                <h2>FREQUENTLY ASKED QUESTION (F.A.Q.)</h2>
+
+                <div class="questions__list">
+                    <div class="question">
+                        <div class="question-title">
+                            Can I play the lottery online?
+                        </div>
+                        <div class="question-answer">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil repudiandae ratione quos dolorum culpa. Incidunt minus atque, laboriosam voluptates ipsam fugit autem, quidem laborum quisquam dolor vero repellat animi ab?
+                        </div>
+                    </div>
+
+                    <div class="question">
+                        <div class="question-title">
+                            Can I play the lottery online?
+                        </div>
+                        <div class="question-answer">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil repudiandae ratione quos dolorum culpa. Incidunt minus atque, laboriosam voluptates ipsam fugit autem, quidem laborum quisquam dolor vero repellat animi ab?
+                        </div>
+                    </div>
+
+                    <div class="question">
+                        <div class="question-title">
+                            Can I play the lottery online?
+                        </div>
+                        <div class="question-answer">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil repudiandae ratione quos dolorum culpa. Incidunt minus atque, laboriosam voluptates ipsam fugit autem, quidem laborum quisquam dolor vero repellat animi ab?
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+       </div>
+
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__contact">
+                    <a href="" class="whatsapp">
+                        <img src="img/whatsapp.svg" alt="">
+                        <div class="whatsapp-text">
+                            <span class="big">Live chat by WhatsApp</span>    
+                            <span>Customer Service</span>    
+                        </div>
+                    </a>
+
+                    <div class="social">
+                        <a href="">
+                            <img src="img/facebook.svg" alt="">
+                        </a>
+                        <a href="">
+                            <img src="img/twitter.svg" alt="">
+                        </a>
+                        <a href="">
+                            <img src="img/facebook-messenger.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer__cols">
+                    <div class="footer__col">
+                        <h5 class="col-title">
+                            USEFUL LINKS
+                        </h5>
+                        <ul>
+                            <li>
+                                <a href="#">Lottery Results & Winners</a>
+                            </li>
+
+                            <li>
+                                <a href="#">Lottery Promotions</a>
+                            </li>
+
+
+                            <li>
+                                <a href="#">About Us</a>
+                            </li>
+
+                            <li>
+                                <a href="#">Contact Us</a>
+                            </li>
+
+                            <li>
+                                <a href="#">Terms & Conditions</a>
+                            </li>
+
+                            <li>
+                                <a href="#">Security</a>
+                            </li>
+
+                            <li>
+                                <a href="#">Privacy Policy</a>
+                            </li>
+
+                            <li>
+                                <a href="#">Acceptable Use Policy</a>
+                            </li>
+
+                            <li>
+                                <a href="#">Website Use Policy</a>
+                            </li>
+
+                            <li>
+                                <a href="#"><b>Affiliate program</b></a>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <div class="footer__col">
+                        <h5 class="col-title">
+                            USEFUL LINKS
+                        </h5>
+                        <p class="footer-text">
+                            The trade name SmartWinners and all content on this website is a copyright of SmartWinners Limited. All rights reserved. We are an independent lottery ticket purchasing service. We are not affiliated with nor are we endorsed by any State sanctioned lottery organization. We make no claims on our site to be such. 
+                        </p>
+
+                        <p class="footer-text footer-text--medium">
+                            Our registered business address is Unit 6158, PO Box 6945, London, W1A 6US, United Kingdom.
+                        </p>
+                    </div>
+
+                    <div class="footer__col">
+                        <div>
+                            <h5 class="col-title">
+                                PAYMENT METHODS
+                            </h5>
+    
+                            <div class="payments">
+                                <img src="img/payments/Bitcoin-dark.svg" alt="">
+                                <img src="img/payments/DinersClub-dark.svg" alt="">
+                                <img src="img/payments/hsbc 1.svg" alt="">
+                                <img src="img/payments/litecoin 1.svg" alt="">
+                                <img src="img/payments/Skrill-dark.svg" alt="">
+                                <img src="img/payments/Maestro-dark.svg" alt="">
+                                <img src="img/payments/qiwi 1.svg" alt="">
+                                <img src="img/payments/Visa-dark.svg" alt="">
+                                <img src="img/payments/MasterCard-dark.svg" alt="">
+                            </div>
+                        </div>
+                       
+
+                        <div>
+                            <h5 class="col-title">
+                                SECURITY & TRUST
+                            </h5>
+    
+                            <div class="security-img">
+                                <img src="img/sec.png" alt="">
+                            </div>
+                        </div>
+                       
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</div> <!--  /site-container -->
+
+<script src="js/main.min.js"></script>
+
+
+
+</body>
+
+</html>
