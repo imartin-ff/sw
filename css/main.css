@@ -101,7 +101,7 @@ button, input, select {
 }
 @media (min-width: 991px) {
   .desktop-hidden {
-    display: none;
+    display: none !important;
   }
 }
 @media (min-width: 991px) {
